@@ -1,0 +1,26 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "前端技术博客",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog",
+    "前端",
+    "技术"
+  ],
+  "author": "50458012@163.com",
+  "license": "ISC",
+  "dependencies": {
+    "jstransformer-markdown-it": "^2.1.0",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.0",
+    "pug": "^2.0.4",
+    "static": "^2.0.0",
+    "stylus": "^0.54.5"
+  }
+}

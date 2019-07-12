@@ -1,0 +1,12 @@
+doctype html
+
+html
+  head
+    meta(charset='utf-8')
+    block css
+    
+  body
+    block content
+    p=view
+      include:markdown-it #{view}
+    block js
